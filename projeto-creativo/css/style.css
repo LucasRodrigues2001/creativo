@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 51.84px;
+    padding: 40px 80px;
+
+    & .navbar ul {
+        display: flex;
+        width: Hug (548.53px)px;
+        height: Hug (49px)px;
+        gap: 51.84px;
+        align-items: center;
+
+
+    }
+
+    & .btns {
+        display: flex;
+        padding: 8.07px;
+        width: Hug (548.53px)px;
+        height: Hug (49px)px;
+        gap: 51.84px;
+        opacity: 0px;
+
+
+    }
+}
+
+main {
+    padding: 120px 0px 0px 0px;
+    gap: 60px;
+    opacity: 0px;
+
+
+    & section {
+        display: flex;
+
+        & .lado-esquerdo {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        & .content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        & h1 {
+            font-size: 70px;
+            width: 653.27px;
+            height: 240px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        & p {
+            width: 653.27px;
+            height: 192px;
+            gap: 25px;
+            opacity: 0px;
+            font-size: 28px;
+        }
+
+        & button {
+            width: 246px;
+            font-weight: 700;
+            line-height: 30.48px;
+            font-size: 24px;
+            col
+        }
+    }
+}
